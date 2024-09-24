@@ -5,7 +5,7 @@
         {
             "id": "a",
             "name": "John Smith",
-            "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+            "avatar": "https://github.com/shadcn.png",
             "messages": [
                 {
                     "msgId": "ws1",
@@ -195,6 +195,174 @@
                     "senderId": "i",
                     "senderName": "David Kim",
                     "timestamp": "2022-01-06T09:10:00.000Z"
+                }
+            ]
+        },
+        {
+            "id": "c",
+            "name": "Alice Brown",
+            "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
+            "messages": [
+                {
+                    "msgId": "ws1",
+                    "message": "Hey Sachi, are you coming to the meeting tomorrow?",
+                    "senderId": "c",
+                    "senderName": "Alice Brown",
+                    "timestamp": "2022-01-01T00:00:00.000Z"
+                },
+                {
+                    "msgId": "ws2",
+                    "message": "Yes, I'll be there at 10 AM.",
+                    "senderId": "self",
+                    "senderName": "sachi",
+                    "timestamp": "2022-01-01T00:01:00.000Z"
+                },
+                {
+                    "msgId": "ws3",
+                    "message": "Great! See you then.",
+                    "senderId": "c",
+                    "senderName": "Alice Brown",
+                    "timestamp": "2022-01-01T00:02:00.000Z"
+                }
+            ]
+        },
+        {
+            "id": "d",
+            "name": "Michael Green",
+            "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
+            "messages": [
+                {
+                    "msgId": "ws1",
+                    "message": "Did you finish the project?",
+                    "senderId": "d",
+                    "senderName": "Michael Green",
+                    "timestamp": "2022-01-01T00:00:00.000Z"
+                },
+                {
+                    "msgId": "ws2",
+                    "message": "Almost done, just need to wrap up a few things.",
+                    "senderId": "self",
+                    "senderName": "sachi",
+                    "timestamp": "2022-01-01T00:01:00.000Z"
+                },
+                {
+                    "msgId": "ws3",
+                    "message": "Awesome! Let me know if you need any help.",
+                    "senderId": "d",
+                    "senderName": "Michael Green",
+                    "timestamp": "2022-01-01T00:02:00.000Z"
+                }
+            ]
+        },
+        {
+            "id": "j",
+            "name": "Alice Johnson",
+            "avatar": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "messages": [
+                {
+                    "msgId": "ws1",
+                    "message": "Hey Sachi! Are you free for lunch tomorrow?",
+                    "senderId": "j",
+                    "senderName": "Alice Johnson",
+                    "timestamp": "2022-01-07T11:00:00.000Z"
+                },
+                {
+                    "msgId": "ws2",
+                    "message": "Sure! What time were you thinking?",
+                    "senderId": "self",
+                    "senderName": "sachi",
+                    "timestamp": "2022-01-07T11:05:00.000Z"
+                },
+                {
+                    "msgId": "ws3",
+                    "message": "How about 1 PM at that new café?",
+                    "senderId": "j",
+                    "senderName": "Alice Johnson",
+                    "timestamp": "2022-01-07T11:10:00.000Z"
+                }
+            ]
+        },
+        {
+            "id": "k",
+            "name": "Brian Lee",
+            "avatar": "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "messages": [
+                {
+                    "msgId": "ws1",
+                    "message": "Did you finish the project report?",
+                    "senderId": "k",
+                    "senderName": "Brian Lee",
+                    "timestamp": "2022-01-08T09:30:00.000Z"
+                },
+                {
+                    "msgId": "ws2",
+                    "message": "Almost done, just need to add some graphs.",
+                    "senderId": "self",
+                    "senderName": "sachi",
+                    "timestamp": "2022-01-08T09:35:00.000Z"
+                },
+                {
+                    "msgId": "ws3",
+                    "message": "Great! Let me know if you need help.",
+                    "senderId": "k",
+                    "senderName": "Brian Lee",
+                    "timestamp": "2022-01-08T09:40:00.000Z"
+                }
+            ]
+        },
+        {
+            "id": "l",
+            "name": "Emma Watson",
+            "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "messages": [
+                {
+                    "msgId": "ws1",
+                    "message": "Are you coming to the movie night?",
+                    "senderId": "l",
+                    "senderName": "Emma Watson",
+                    "timestamp": "2022-01-09T18:00:00.000Z"
+                },
+                {
+                    "msgId": "ws2",
+                    "message": "Absolutely! What movie are we watching?",
+                    "senderId": "self",
+                    "senderName": "sachi",
+                    "timestamp": "2022-01-09T18:05:00.000Z"
+                },
+                {
+                    "msgId": "ws3",
+                    "message": "The latest thriller! Can’t wait!",
+                    "senderId": "l",
+                    "senderName": "Emma Watson",
+                    "timestamp": "2022-01-09T18:10:00.000Z"
+                }
+            ]
+        },
+        {
+            "id": "m",
+            "name": "Liam Brown",
+            "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+            "messages": [
+                {
+                    "msgId": "ws1",
+                    "message": "Hey! Ready for the weekend hike?",
+                    "senderId": "m",
+                    "senderName": "Liam Brown",
+                    "timestamp": "2022-01-10T07:00:00.000Z"
+                },
+                {
+                    "msgId": "ws2",
+                    "message": "Yes! Got my gear packed.",
+                    "senderId": "self",
+                    "senderName": "sachi",
+                    "timestamp": "2022-01-10T07:05:00.000Z"
+                },
+                {
+                    "msgId": "ws3",
+                    "message": "Perfect! See you at the trailhead!",
+                    "senderId": "m",
+                    "senderName": "Liam Brown",
+                    "timestamp": "2022-01-10T07:10:00.000Z"
                 }
             ]
         }

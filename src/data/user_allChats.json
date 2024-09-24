@@ -1,0 +1,202 @@
+{
+    "mainUserId": "self",
+    "name": "sachi",
+    "allChats": [
+        {
+            "id": "a",
+            "name": "John Smith",
+            "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+            "messages": [
+                {
+                    "msgId": "ws1",
+                    "message": "Hello, how are you?",
+                    "senderId": "a",
+                    "senderName": "John Smith",
+                    "timestamp": "2022-01-01T00:00:00.000Z"
+                },
+                {
+                    "msgId": "ws2",
+                    "message": "I'm doing well, thanks!",
+                    "senderId": "self",
+                    "senderName": "sachi",
+                    "timestamp": "2022-01-01T00:01:00.000Z"
+                },
+                {
+                    "msgId": "ws3",
+                    "message": "I'm also fine.",
+                    "senderId": "a",
+                    "senderName": "John Smith",
+                    "timestamp": "2022-01-01T00:02:00.000Z"
+                }
+            ]
+        },
+        {
+            "id": "b",
+            "name": "Jane Doe",
+            "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+            "messages": [
+                {
+                    "msgId": "ws1",
+                    "message": "Hello?",
+                    "senderId": "b",
+                    "senderName": "Jane Doe",
+                    "timestamp": "2022-01-01T00:00:00.000Z"
+                },
+                {
+                    "msgId": "ws2",
+                    "message": "doing well",
+                    "senderId": "self",
+                    "senderName": "sachi",
+                    "timestamp": "2022-01-01T00:01:00.000Z"
+                },
+                {
+                    "msgId": "ws3",
+                    "message": "yes, I'm ",
+                    "senderId": "b",
+                    "senderName": "Jane Doe",
+                    "timestamp": "2022-01-01T00:02:00.000Z"
+                }
+            ]
+        },
+        {
+            "id": "e",
+            "name": "Carlos Mendoza",
+            "avatar": "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+            "messages": [
+                {
+                    "msgId": "ws1",
+                    "message": "Sachi, are you ready for the trip next weekend?",
+                    "senderId": "e",
+                    "senderName": "Carlos Mendoza",
+                    "timestamp": "2022-01-02T08:00:00.000Z"
+                },
+                {
+                    "msgId": "ws2",
+                    "message": "Almost packed! Can’t wait.",
+                    "senderId": "self",
+                    "senderName": "sachi",
+                    "timestamp": "2022-01-02T08:05:00.000Z"
+                },
+                {
+                    "msgId": "ws3",
+                    "message": "Me too! Don’t forget the hiking gear.",
+                    "senderId": "e",
+                    "senderName": "Carlos Mendoza",
+                    "timestamp": "2022-01-02T08:10:00.000Z"
+                }
+            ]
+        },
+        {
+            "id": "f",
+            "name": "Lara Spencer",
+            "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+            "messages": [
+                {
+                    "msgId": "ws1",
+                    "message": "Hey, did you catch the latest episode of that show?",
+                    "senderId": "f",
+                    "senderName": "Lara Spencer",
+                    "timestamp": "2022-01-03T22:15:00.000Z"
+                },
+                {
+                    "msgId": "ws2",
+                    "message": "Yes! It was mind-blowing!",
+                    "senderId": "self",
+                    "senderName": "sachi",
+                    "timestamp": "2022-01-03T22:20:00.000Z"
+                },
+                {
+                    "msgId": "ws3",
+                    "message": "I know right? We have to discuss this over coffee.",
+                    "senderId": "f",
+                    "senderName": "Lara Spencer",
+                    "timestamp": "2022-01-03T22:25:00.000Z"
+                }
+            ]
+        },
+        {
+            "id": "g",
+            "name": "Zain Malik",
+            "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80",
+            "messages": [
+                {
+                    "msgId": "ws1",
+                    "message": "Yo Sachi! Are you joining the gaming session tonight?",
+                    "senderId": "g",
+                    "senderName": "Zain Malik",
+                    "timestamp": "2022-01-04T19:00:00.000Z"
+                },
+                {
+                    "msgId": "ws2",
+                    "message": "Of course! What time are we starting?",
+                    "senderId": "self",
+                    "senderName": "sachi",
+                    "timestamp": "2022-01-04T19:05:00.000Z"
+                },
+                {
+                    "msgId": "ws3",
+                    "message": "9 PM sharp. Don't be late!",
+                    "senderId": "g",
+                    "senderName": "Zain Malik",
+                    "timestamp": "2022-01-04T19:10:00.000Z"
+                }
+            ]
+        },
+        {
+            "id": "h",
+            "name": "Nina Patel",
+            "avatar": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+            "messages": [
+                {
+                    "msgId": "ws1",
+                    "message": "Can you send me the presentation slides?",
+                    "senderId": "h",
+                    "senderName": "Nina Patel",
+                    "timestamp": "2022-01-05T14:30:00.000Z"
+                },
+                {
+                    "msgId": "ws2",
+                    "message": "Sure, I’ll send them over in a minute.",
+                    "senderId": "self",
+                    "senderName": "sachi",
+                    "timestamp": "2022-01-05T14:35:00.000Z"
+                },
+                {
+                    "msgId": "ws3",
+                    "message": "Got them! Thanks a lot!",
+                    "senderId": "h",
+                    "senderName": "Nina Patel",
+                    "timestamp": "2022-01-05T14:40:00.000Z"
+                }
+            ]
+        },
+        {
+            "id": "i",
+            "name": "David Kim",
+            "avatar": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+            "messages": [
+                {
+                    "msgId": "ws1",
+                    "message": "Sachi, when are we meeting for the group project?",
+                    "senderId": "i",
+                    "senderName": "David Kim",
+                    "timestamp": "2022-01-06T09:00:00.000Z"
+                },
+                {
+                    "msgId": "ws2",
+                    "message": "How about 2 PM tomorrow?",
+                    "senderId": "self",
+                    "senderName": "sachi",
+                    "timestamp": "2022-01-06T09:05:00.000Z"
+                },
+                {
+                    "msgId": "ws3",
+                    "message": "Sounds good! I'll see you then.",
+                    "senderId": "i",
+                    "senderName": "David Kim",
+                    "timestamp": "2022-01-06T09:10:00.000Z"
+                }
+            ]
+        }
+    ]
+}

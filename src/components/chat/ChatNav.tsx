@@ -8,7 +8,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 function ChatNav() {
     return (
 
-        <nav className="bg-sky-500 dark:bg-gray-800 px-4 py-0.5 min-h-16 w-full
+        <nav className="bg-sky-500 dark:bg-gray-900 px-4 py-0.5 min-h-16 w-full
              flex justify-between items-center gap-2">
             <div className="flex justify-center items-center gap-2">
 

@@ -1,10 +1,19 @@
+"use client"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import chatData from "@/data/chatData.json"
 
 
+
+
 function AllChats() {
 
+    const updateChatSection = (chat: any) => {
+
+        // use props to pass data
+        const { id, name, avatar, messages } = chat;
+        console.log(id, name, avatar, messages)
+    };
 
 
 
@@ -17,7 +26,7 @@ function AllChats() {
             <ul className="menu w-full p-0 [&_li>*]:rounded-none text-black dark:text-white text-lg" >
                 {chatData.allChats.map((chat) => (
                     <li key={chat.id}>
-                        <button className=" px-4 py-3 min-h-16 w-full flex justify-between items-center gap-2">
+                        <button onClick={() => updateChatSection(chat)} className=" px-4 py-3 min-h-16 w-full flex justify-between items-center gap-2">
                             <div className="flex justify-center items-center gap-2">
 
                                 <div className="m-2">
@@ -35,7 +44,7 @@ function AllChats() {
                         </button>
                     </li>
                 ))}
-                
+
 
 
                 {/* <li>

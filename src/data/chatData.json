@@ -27,6 +27,90 @@
                     "senderId": "a",
                     "senderName": "John Smith",
                     "timestamp": "2022-01-01T00:02:00.000Z"
+                },
+                {
+                    "msgId": "ws4",
+                    "message": "What are you up to today?",
+                    "senderId": "self",
+                    "senderName": "sachi",
+                    "timestamp": "2022-01-01T00:03:00.000Z"
+                },
+                {
+                    "msgId": "ws5",
+                    "message": "Just chilling at home.",
+                    "senderId": "a",
+                    "senderName": "John Smith",
+                    "timestamp": "2022-01-01T00:04:00.000Z"
+                },
+                {
+                    "msgId": "ws6",
+                    "message": "Nice! I'm going out to meet some friends.",
+                    "senderId": "self",
+                    "senderName": "sachi",
+                    "timestamp": "2022-01-01T00:05:00.000Z"
+                },
+                {
+                    "msgId": "ws7",
+                    "message": "Sounds fun! Enjoy yourself.",
+                    "senderId": "a",
+                    "senderName": "John Smith",
+                    "timestamp": "2022-01-01T00:06:00.000Z"
+                },
+                {
+                    "msgId": "ws8",
+                    "message": "I will. What are you doing later?",
+                    "senderId": "self",
+                    "senderName": "sachi",
+                    "timestamp": "2022-01-01T00:07:00.000Z"
+                },
+                {
+                    "msgId": "ws9",
+                    "message": "Probably just watching a movie.",
+                    "senderId": "a",
+                    "senderName": "John Smith",
+                    "timestamp": "2022-01-01T00:08:00.000Z"
+                },
+                {
+                    "msgId": "ws10",
+                    "message": "Cool! What movie are you watching?",
+                    "senderId": "self",
+                    "senderName": "sachi",
+                    "timestamp": "2022-01-01T00:09:00.000Z"
+                },
+                {
+                    "msgId": "ws11",
+                    "message": "I haven't decided yet.",
+                    "senderId": "a",
+                    "senderName": "John Smith",
+                    "timestamp": "2022-01-01T00:10:00.000Z"
+                },
+                {
+                    "msgId": "ws12",
+                    "message": "Maybe you should pick one.",
+                    "senderId": "self",
+                    "senderName": "sachi",
+                    "timestamp": "2022-01-01T00:11:00.000Z"
+                },
+                {
+                    "msgId": "ws13",
+                    "message": "Haha, you're right. I'll think about it.",
+                    "senderId": "a",
+                    "senderName": "John Smith",
+                    "timestamp": "2022-01-01T00:12:00.000Z"
+                },
+                {
+                    "msgId": "ws14",
+                    "message": "Let me know when you decide.",
+                    "senderId": "self",
+                    "senderName": "sachi",
+                    "timestamp": "2022-01-01T00:13:00.000Z"
+                },
+                {
+                    "msgId": "ws15",
+                    "message": "I will. See you later!",
+                    "senderId": "a",
+                    "senderName": "John Smith",
+                    "timestamp": "2022-01-01T00:14:00.000Z"
                 }
             ]
         },
@@ -55,6 +139,160 @@
                     "senderId": "b",
                     "senderName": "Jane Doe",
                     "timestamp": "2022-01-01T00:02:00.000Z"
+                },
+                {
+                    "msgId": "ws4",
+                    "message": "What are you doing?",
+                    "senderId": "self",
+                    "senderName": "sachi",
+                    "timestamp": "2022-01-01T00:03:00.000Z"
+                },
+                {
+                    "msgId": "ws5",
+                    "message": "Just chilling at home.",
+                    "senderId": "b",
+                    "senderName": "Jane Doe",
+                    "timestamp": "2022-01-01T00:04:00.000Z"
+                },
+                {
+                    "msgId": "ws6",
+                    "message": "Nice! I'm going out to meet some friends.",
+                    "senderId": "self",
+                    "senderName": "sachi",
+                    "timestamp": "2022-01-01T00:05:00.000Z"
+                },
+                {
+                    "msgId": "ws7",
+                    "message": "Sounds fun! Enjoy yourself.",
+                    "senderId": "b",
+                    "senderName": "Jane Doe",
+                    "timestamp": "2022-01-01T00:06:00.000Z"
+                },
+                {
+                    "msgId": "ws8",
+                    "message": "I will. What are you doing later?",
+                    "senderId": "self",
+                    "senderName": "sachi",
+                    "timestamp": "2022-01-01T00:07:00.000Z"
+                },
+                {
+                    "msgId": "ws9",
+                    "message": "Probably just watching a movie.",
+                    "senderId": "b",
+                    "senderName": "Jane Doe",
+                    "timestamp": "2022-01-01T00:08:00.000Z"
+                },
+                {
+                    "msgId": "ws10",
+                    "message": "Cool! What movie are you watching?",
+                    "senderId": "self",
+                    "senderName": "sachi",
+                    "timestamp": "2022-01-01T00:09:00.000Z"
+                },
+                {
+                    "msgId": "ws11",
+                    "message": "I haven't decided yet.",
+                    "senderId": "b",
+                    "senderName": "Jane Doe",
+                    "timestamp": "2022-01-01T00:10:00.000Z"
+                },
+                {
+                    "msgId": "ws12",
+                    "message": "Maybe you should pick one.",
+                    "senderId": "self",
+                    "senderName": "sachi",
+                    "timestamp": "2022-01-01T00:11:00.000Z"
+                },
+                {
+                    "msgId": "ws13",
+                    "message": "Haha, you're right. I'll think about it.",
+                    "senderId": "b",
+                    "senderName": "Jane Doe",
+                    "timestamp": "2022-01-01T00:12:00.000Z"
+                },
+                {
+                    "msgId": "ws14",
+                    "message": "Let me know when you decide.",
+                    "senderId": "self",
+                    "senderName": "sachi",
+                    "timestamp": "2022-01-01T00:13:00.000Z"
+                },
+                {
+                    "msgId": "ws15",
+                    "message": "I will. See you later!",
+                    "senderId": "b",
+                    "senderName": "Jane Doe",
+                    "timestamp": "2022-01-01T00:14:00.000Z"
+                },
+                {
+                    "msgId": "ws16",
+                    "message": "See you too!",
+                    "senderId": "self",
+                    "senderName": "sachi",
+                    "timestamp": "2022-01-01T00:15:00.000Z"
+                },
+                {
+                    "msgId": "ws17",
+                    "message": "Hey, what's up?",
+                    "senderId": "b",
+                    "senderName": "Jane Doe",
+                    "timestamp": "2022-01-01T00:16:00.000Z"
+                },
+                {
+                    "msgId": "ws18",
+                    "message": "Not much, just chilling.",
+                    "senderId": "self",
+                    "senderName": "sachi",
+                    "timestamp": "2022-01-01T00:17:00.000Z"
+                },
+                {
+                    "msgId": "ws19",
+                    "message": "Cool, I'm about to go out for dinner.",
+                    "senderId": "b",
+                    "senderName": "Jane Doe",
+                    "timestamp": "2022-01-01T00:18:00.000Z"
+                },
+                {
+                    "msgId": "ws20",
+                    "message": "Nice! Enjoy your meal.",
+                    "senderId": "self",
+                    "senderName": "sachi",
+                    "timestamp": "2022-01-01T00:19:00.000Z"
+                },
+                {
+                    "msgId": "ws21",
+                    "message": "Thanks! I'll let you know how it is.",
+                    "senderId": "b",
+                    "senderName": "Jane Doe",
+                    "timestamp": "2022-01-01T00:20:00.000Z"
+                },
+                {
+                    "msgId": "ws22",
+                    "message": "Sounds good! Let's talk later.",
+                    "senderId": "self",
+                    "senderName": "sachi",
+                    "timestamp": "2022-01-01T00:21:00.000Z"
+                },
+                {
+                    "msgId": "ws23",
+                    "message": "Okay, bye!",
+                    "senderId": "b",
+                    "senderName": "Jane Doe",
+                    "timestamp": "2022-01-01T00:22:00.000Z"
+                },
+                {
+                    "msgId": "ws24",
+                    "message": "Bye!",
+                    "senderId": "self",
+                    "senderName": "sachi",
+                    "timestamp": "2022-01-01T00:23:00.000Z"
+                },
+                {
+                    "msgId": "ws25",
+                    "message": "Hey, what's up?",
+                    "senderId": "b",
+                    "senderName": "Jane Doe",
+                    "timestamp": "2022-01-01T00:24:00.000Z"
                 }
             ]
         },

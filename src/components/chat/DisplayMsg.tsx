@@ -1,4 +1,3 @@
-// import { ScrollArea } from "@/components/ui/scroll-area"
 
 
 function DisplayMsg() {
@@ -9,7 +8,6 @@ function DisplayMsg() {
 
 
             <div className="w-full sm:w-7/12 py-4 overflow-y-auto scrollbar-hide">
-                {/* <ScrollArea className="  rounded-md border p-4"> */}
 
 
                     <div className="chat chat-start">
@@ -88,7 +86,6 @@ function DisplayMsg() {
                     <div className="chat chat-end">
                         <div className="chat-bubble">You underestimate my power!</div>
                     </div>
-                {/* </ScrollArea> */}
             </div>
 
         </div>

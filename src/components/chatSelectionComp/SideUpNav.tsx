@@ -1,4 +1,4 @@
-import { RiSendPlane2Fill } from "react-icons/ri";
+// import { RiSendPlane2Fill } from "react-icons/ri";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 function SideUpNav() {

@@ -4,11 +4,27 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import chatData from "@/data/chatData.json"
 
 
+// Define the types based on your data
+interface Message {
+    msgId: string;
+    message: string;
+    senderId: string;
+    senderName: string;
+    timestamp: string;
+  }
+  
+  interface Chat {
+    id: string;
+    name: string;
+    avatar: string;
+    messages: Message[];
+  }
+  
 
 
 function AllChats() {
 
-    const updateChatSection = (chat: any) => {
+    const updateChatSection = (chat: Chat) => {
 
         // use props to pass data
         const { id, name, avatar, messages } = chat;
@@ -47,23 +63,7 @@ function AllChats() {
 
 
 
-                {/* <li>
-                    <button className=" px-4 py-3 min-h-16 w-full flex justify-between items-center gap-2">
-                        <div className="flex justify-center items-center gap-2">
-
-                            <div className="m-2">
-                                <Avatar>
-                                    <AvatarImage src="https://github.com/shadcn.png" />
-                                    <AvatarFallback>SP</AvatarFallback>
-                                </Avatar>
-                            </div>
-                            <div>
-                                <h2 className="text-md font-light">Nandani</h2>
-                                <p className="text-xs">Last msg here</p>
-                            </div>
-                        </div>
-                    </button>
-                </li> */}
+               
 
 
             </ul>
@@ -73,3 +73,24 @@ function AllChats() {
 }
 
 export default AllChats
+
+
+
+
+//  {/* <li>
+//                     <button className=" px-4 py-3 min-h-16 w-full flex justify-between items-center gap-2">
+//                         <div className="flex justify-center items-center gap-2">
+
+//                             <div className="m-2">
+//                                 <Avatar>
+//                                     <AvatarImage src="https://github.com/shadcn.png" />
+//                                     <AvatarFallback>SP</AvatarFallback>
+//                                 </Avatar>
+//                             </div>
+//                             <div>
+//                                 <h2 className="text-md font-light">Nandani</h2>
+//                                 <p className="text-xs">Last msg here</p>
+//                             </div>
+//                         </div>
+//                     </button>
+//                 </li> */}

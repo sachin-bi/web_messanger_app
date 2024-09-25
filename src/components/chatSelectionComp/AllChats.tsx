@@ -2,33 +2,23 @@
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import chatData from "@/data/chatData.json"
+import type { Chat } from "@/data/onChatSelectSchema"
 
 
-// Define the types based on your data
-interface Message {
-    msgId: string;
-    message: string;
-    senderId: string;
-    senderName: string;
-    timestamp: string;
-  }
-  
-  interface Chat {
-    id: string;
-    name: string;
-    avatar: string;
-    messages: Message[];
-  }
+
   
 
 
-function AllChats() {
+function AllChats( { onChatSelect }: { onChatSelect: (chat: Chat) => void } ) {
 
     const updateChatSection = (chat: Chat) => {
+        onChatSelect(chat);
 
-        // use props to pass data
-        const { id, name, avatar, messages } = chat;
-        console.log(id, name, avatar, messages)
+        // useing props to pass data
+        // const { id, name, avatar, messages } = chat;
+        // console.log(id, name, avatar, messages)
+        // console.log(chat);
+        
     };
 
 

@@ -5,7 +5,7 @@ import { SlOptionsVertical } from "react-icons/sl";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 
-function ChatNav() {
+function ChatNav( { name, avatar }: { name: string, avatar: string } ) {
     return (
 
         <nav className="bg-sky-500 dark:bg-gray-900 px-4 py-0.5 min-h-16 w-full
@@ -14,13 +14,13 @@ function ChatNav() {
 
                 <div className="m-2">
                     <Avatar>
-                        <AvatarImage src="https://github.com/shadcn.png" />
-                        <AvatarFallback>SP</AvatarFallback>
+                        <AvatarImage src={avatar} />
+                        <AvatarFallback>{name[0]}</AvatarFallback>
                     </Avatar>
                 </div>
                 <div>
-                    <h2 className="text-md font-bold">Nandani</h2>
-                    <p className="text-xs">Last seen: 3 hours ago</p>
+                    <h2 className="text-md font-bold">{name}</h2>
+                    <p className="text-xs">Last seen 3 hours ago</p>
                 </div>
             </div>
             <div className="flex flex-row gap-2 justify-center items-center">

@@ -5,8 +5,7 @@ function DisplayMsg() {
         <div className="flex-grow w-full px-4 
         h-48  flex justify-center  bg-zinc-50 dark:bg-gray-950 dark:text-white
         ">
-
-
+            
             <div className="w-full sm:w-7/12 py-4 overflow-y-auto scrollbar-hide">
 
 

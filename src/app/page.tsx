@@ -23,3 +23,10 @@ export default function Home() {
     </main>
   );
 }
+
+// {/* Conditionally render based on whether a chat is selected */}
+// {selectedChat ? (
+//   <ChatSection chat={selectedChat} />
+// ) : (
+//   <ChatEmpty />
+// )}

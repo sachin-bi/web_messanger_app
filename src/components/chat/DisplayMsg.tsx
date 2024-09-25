@@ -23,11 +23,11 @@ function DisplayMsg({ name, messages }: { name: string, messages: Message[] }) {
 
                 {messages.map((message) => (
                     (message.senderName === name) ? (
-                        <div className="chat chat-start">
+                        <div key={message.msgId} className="chat chat-start">
                             <div className="chat-bubble">{message.message}</div>
                         </div>
                     ) : (
-                        <div className="chat chat-end">
+                        <div key={message.msgId} className="chat chat-end">
                             <div className="chat-bubble">{message.message}</div>
                         </div>
                     )

@@ -1,12 +1,12 @@
 import ChatNav from "./chat/ChatNav"
 import DisplayMsg from "./chat/DisplayMsg"
 import InputForm from "./chat/InputForm"
-import type { Chat, Message } from "@/data/onChatSelectSchema"
+import type { Chat } from "@/data/onChatSelectSchema"
 
 
 function ChatSection({ chat }: { chat: Chat }) {
 
-    const { id, name, avatar, messages } = chat;
+    const {  name, avatar, messages } = chat;
 
 
     return (
